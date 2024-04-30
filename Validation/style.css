@@ -1,0 +1,63 @@
+.main input{
+    margin-bottom: 10px;
+}
+body{
+    background-color: black;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.main{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    width: 200px;
+    height: auto;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+.main h1{
+    font-weight: 300;
+    font-size: 16px;
+}
+.main button{
+    width: 150px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#text{
+    font-size: 16px;
+}
+
+.empty{
+    color: black;
+}
+.user{
+    color:orange;
+}
+.pass{
+    color: red;
+}
+.success{
+    color: blue;
+}
+.border-emp{
+    border: 2px solid black;
+}
+.border-user{
+    border: 2px solid orange;
+}
+.border-pass{
+    border: 2px solid red;
+}
+.border-success{
+    border: 2px solid blue;
+}
